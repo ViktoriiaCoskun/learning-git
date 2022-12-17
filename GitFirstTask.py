@@ -11,3 +11,4 @@ products_together=0
 for keys in shopping_list:
 	products_together=products_together+len(shopping_list[keys])
 print("I bought",products_together,"products together")
+print("shopping is done")
