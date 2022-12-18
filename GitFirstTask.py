@@ -16,3 +16,6 @@ shopping_list["grocery_store"].append("CUCUMBER")
 print(shopping_list)
 new_shop_list=[name if name != "CELERY" else "ORANGE" for name in shopping_list["grocery_store"]]
 print(new_shop_list)
+new_shop_list1=[len(name) for name in shopping_list["grocery_store"]]
+print(new_shop_list1)
+print(new_shop_list1)
